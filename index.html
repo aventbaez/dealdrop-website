@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deal Drop</title>
+    <link rel="stylesheet" href="css\styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="#" alt="Deal Drop" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <b><a href="#">Home</a></b>
+            </li>
+            <li>
+              <b><a href="#">Audio</a></b>
+            </li>
+            <li>
+              <b><a href="#">Cameras</a></b>
+            </li>
+            <li>
+              <b><a href="#">Computers</a></b>
+            </li>
+            <li>
+              <b><a href="#">Gaming</a></b>
+            </li>
+            <li>
+              <b><a href="#">Smart Home</a></b>
+            </li>
+            <li>
+              <b><a href="#">Accessories</a></b>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1></h1>
+        <a href="#" class="shop-now-button">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- Product List/Featured Products -->
+    <section class="product-list">
+      <h2>Featured Products</h2>
+
+      <div class="product">
+        <div class="product-details">
+          <a
+            href="https://www.amazon.com/Samsung-970-EVO-Plus-MZ-V7S1T0B/dp/B07MFZY2F2"
+            target="_blank"
+          >
+            <img src="images/970evo.jpg" alt="Product 1" />
+          </a>
+          <h3 class="product-title">
+            Samsung 970 EVO Plus Series - 1TB PCIe NVMe
+          </h3>
+          <p class="product-description">
+            SAMSUNG 970 EVO Plus SSD 1TB NVMe M.2 Internal Solid State Hard
+            Drive, V-NAND Technology, Storage and Memory Expansion for Gaming,
+            Graphics w/ Heat Control, Max Speed, MZ-V7S1T0B/AM
+          </p>
+          <p class="product-price">$79.99</p>
+          <a
+            href="https://www.amazon.com/Samsung-970-EVO-Plus-MZ-V7S1T0B/dp/B07MFZY2F2"
+            target="_blank"
+            class="shop-now-button"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-details">
+          <a
+            href="https://www.amazon.com/GIGABYTE-REV2-0-WINDFORCE-GV-N3060GAMING-OC-12GD/dp/B0971BG25M"
+            target="_blank"
+          >
+            <img src="images/product2.jpg" alt="Product 2" />
+          </a>
+          <h3 class="product-title">RTX 3060 Gaming OC 12G</h3>
+          <p class="product-description">
+            GIGABYTE GeForce RTX 3060 Gaming OC 12G (REV2.0) Graphics Card, 3X
+            WINDFORCE Fans, 12GB 192-bit GDDR6, GV-N3060GAMING OC-12GD Video
+            Card
+          </p>
+          <p class="product-price">$379.99</p>
+          <a
+            href="https://www.amazon.com/GIGABYTE-REV2-0-WINDFORCE-GV-N3060GAMING-OC-12GD/dp/B0971BG25M"
+            target="_blank"
+            class="shop-now-button"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-details">
+          <a
+            href="https://www.amazon.com/XG248Q-Compatible-Adaptive-Esports-Monitor/dp/B07GR9VXBF"
+            target="_blank"
+          >
+            <img src="images/product3.jpg" alt="Product 3" />
+          </a>
+          <h3 class="product-title">ASUS ROG Strix XG248Q 23.8”</h3>
+          <p class="product-description">
+            ASUS ROG Strix XG248Q 23.8” Full HD 1080p 240Hz 1ms Eye Care G-SYNC
+            compatible FreeSync Esports Gaming Monitor with DP dual HDMI
+          </p>
+          <p class="product-price">$279.00</p>
+          <a
+            href="https://www.amazon.com/XG248Q-Compatible-Adaptive-Esports-Monitor/dp/B07GR9VXBF"
+            target="_blank"
+            class="shop-now-button"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-details">
+          <a
+            href="https://www.amazon.com/Echo-Show-15-6-inch-Display/dp/B08L8JZCZ4"
+            target="_blank"
+          >
+            <img src="images/product4.jpg" alt="Product 4" />
+          </a>
+          <h3 class="product-title">Echo Show 15 | Full HD 15.6"</h3>
+          <p class="product-description">
+            Echo Show 15 | Full HD 15.6" smart display with Alexa and Fire TV
+            built in | Remote included
+          </p>
+          <p class="product-price">$259.98</p>
+          <a
+            href="https://www.amazon.com/smart-display-Alexa-Remote-included/dp/B0BFZVFG6N"
+            target="_blank"
+            class="shop-now-button"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-details">
+          <a
+            href="https://www.amazon.com/Sony-Alpha-ZV-E10-Interchangeable-Mirrorless/dp/B09BBLH4SG"
+            target="_blank"
+          >
+            <img src="images/product5.jpg" alt="Product 5" />
+          </a>
+          <h3 class="product-title">Sony Alpha ZV-E10</h3>
+          <p class="product-description">
+            Sony Alpha ZV-E10 - APS-C Interchangeable Lens Mirrorless Vlog
+            Camera Kit
+          </p>
+          <p class="product-price">$798.00</p>
+          <a
+            href="https://www.amazon.com/Sony-Alpha-ZV-E10-Interchangeable-Mirrorless/dp/B09BBLH4SG"
+            target="_blank"
+            class="shop-now-button"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("nav-links");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+    <!----Footer-->
+    <footer>
+      <div class="footer-content">
+        <p>
+          <b>Proud member of Amazon Services Associates Program.</b><br />
+          Deal Drop engages in affiliate marketing by advertising and linking to
+          products on Amazon.com.<br />
+          This initiative is designed to enable websites to earn advertising
+          fees by promoting Amazon products, and Deal Drop may receive
+          compensation for any resulting purchases made through its affiliate
+          links.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
